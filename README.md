@@ -30,15 +30,15 @@ The test set is highly imbalanced: 215 out of 150,000 transactions are labeled f
 
 ```text
 .
-??? datasets/
-?   ??? DATASET.txt
-?   ??? raw/                  # Downloaded CSV goes here
-??? python/                   # Exploration, SQL loader, and modeling
-??? sql/                      # SQL Server preparation and modeling view
-??? .gitignore
-??? FILE_STRUCTURE.txt
-??? README.md
-??? requirements.txt
+|-- datasets/
+|   |-- DATASET.txt
+|   `-- raw/                  # Downloaded CSV goes here
+|-- python/                   # Exploration, SQL loader, and modeling
+|-- sql/                      # SQL Server preparation and modeling view
+|-- .gitignore
+|-- FILE_STRUCTURE.txt
+|-- README.md
+`-- requirements.txt
 ```
 
 ## Dataset
