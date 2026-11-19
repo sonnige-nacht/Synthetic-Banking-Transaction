@@ -1,0 +1,10 @@
+pandas
+numpy
+SQLAlchemy
+pyodbc
+tqdm
+jupyter
+ipython
+scikit-learn
+lightgbm
+optuna

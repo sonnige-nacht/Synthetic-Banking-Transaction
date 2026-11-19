@@ -1,0 +1,27 @@
+.
+|-- datasets/
+|   |-- DATASET.txt
+|   `-- raw/                         (downloaded CSV files go here)
+|       `-- .gitkeep
+|-- python/
+|   |-- 01_data_exploration.ipynb
+|   |-- 02_load_to_database_MicrosoftSQL.py
+|   `-- 07_ML_fraud_detection.ipynb
+|-- sql/
+|   |-- 03_create_schemas_in_dwh.sql
+|   |-- 04_overview_on_all_datatypes_from_stg_schema.sql
+|   |-- 05_data_cleaning_phase.sql
+|   `-- 06_create_view_fraud_detection_ML.sql
+|-- .gitignore
+|-- FILE_STRUCTURE.txt
+|-- README.md
+`-- requirements.txt
+
+FOLDER AND FILE PURPOSES
+
+datasets/ contains source data and information on its origin and publication.
+python/ contains the exploration notebook, SQL Server loader, and fraud model.
+sql/ contains schema creation, inspection, cleaning, and view scripts.
+requirements.txt lists Python dependencies. .gitignore excludes local environments, secrets, notebook checkpoints, and the large CSV.
+
+Downloaded data files and archives are excluded from Git due to their size. Download the dataset from the source in DATASET.txt. The original virtual environment is omitted. The scripts needed to populate staging and warehouse tables are not present; see README.md.
